@@ -1,0 +1,114 @@
+body {
+    margin:0;
+    /* background-color: black; */
+    overflow: hidden;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+    video {
+        object-fit: fill; /* This will fill the entire screen, potentially distorting the aspect ratio */
+    }
+}
+
+
+
+audio {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo
+{
+    border: 10px solid white;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+    margin: auto;
+    box-shadow: 1px 2px 16px 5px greenyellow;
+    
+
+}
+
+
+@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+    .logo {
+        width: 150px; /* This will fill the entire screen, potentially distorting the aspect ratio */
+        height: 150px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+.data{
+    position: relative;
+    color: white;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    line-height: 30PX;
+
+}
+
+@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+    .data {
+       
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        font-size: 12PX;
+        line-height: 20PX;
+
+    }
+}
+
+.reg{
+    position: relative;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 70px;
+    padding: 10px;
+    
+
+}
+
+.date{
+    position: relative;
+    color: white;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    line-height: 30PX;
+}
+
+
+
+@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+    .date {
+       
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        font-size: 12PX;
+        line-height: 20PX;
+
+    }
+}
+
